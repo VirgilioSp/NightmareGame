@@ -31,19 +31,19 @@ public class playerMovement : MonoBehaviour
         if (horizontal < 0.0f)
         {
 
-            transform.localScale = new Vector3(-0.5f, 0.5f, 1.0f);
+            transform.localScale = new Vector3(-1f, 1f, 1.0f);
 
         }
         else if (horizontal > 0.0f) {
 
-            transform.localScale = new Vector3(0.5f, 0.5f, 1.0f);
+            transform.localScale = new Vector3(1f, 1f, 1.0f);
 
         }
 
         animator.SetBool("running", horizontal != 0.0f); //verifica si esta quieto. Si esta quieto al moverse se reproduce la animacion de walk. Si no lo esta, la animacion walk se detiene.
 
-        Debug.DrawRay(transform.position, Vector3.down * 2.1f, Color.blue);
-        if (Physics2D.Raycast(transform.position, Vector3.down, 2.1f))
+        Debug.DrawRay(transform.position, Vector3.down * 5f, Color.blue);
+        if (Physics2D.Raycast(transform.position, Vector3.down, 5f))
         {
             Grounded = true;
             animator.SetBool("jumping" , Grounded);
