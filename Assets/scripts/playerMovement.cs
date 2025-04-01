@@ -14,6 +14,9 @@ public class playerMovement : MonoBehaviour
     private float horizontal;
     private bool Grounded; //true si estamos en el suelo y false si no
 
+    public bool rayRed;
+    public bool rayYellow;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +46,29 @@ public class playerMovement : MonoBehaviour
         animator.SetBool("running", horizontal != 0.0f); //verifica si esta quieto. Si esta quieto al moverse se reproduce la animacion de walk. Si no lo esta, la animacion walk se detiene.
 
         Debug.DrawRay(transform.position, Vector3.down * 5f, Color.blue);
-        if (Physics2D.Raycast(transform.position, Vector3.down, 5f))
+
+        Debug.DrawRay(transform.position, new Vector3(1, -1, 0) * 5f, Color.red);
+
+        Debug.DrawRay(transform.position, new Vector3(-1, -1, 0) * 5f, Color.yellow);
+
+        if (Physics2D.Raycast(transform.position, new Vector3(1, -1, 0), 5f)) 
+        { 
+        
+            rayRed = true;
+
+        }
+        else { rayRed = false; }
+
+        if (Physics2D.Raycast(transform.position, new Vector3(-1, -1, 0), 5f))
+        {
+
+            rayYellow = true;
+
+        }
+        else { rayYellow = false; }
+
+        if (Physics2D.Raycast(transform.position, Vector3.down, 5f)
+            || Physics2D.Raycast(transform.position, new Vector3(-1, -1, 0), 5f))
         {
             Grounded = true;
             animator.SetBool("jumping" , Grounded);
