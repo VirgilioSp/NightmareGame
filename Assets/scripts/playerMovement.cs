@@ -64,7 +64,7 @@ public class playerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(horizontal, Rigidbody2D.velocity.y);
+        Rigidbody2D.velocity = new Vector2(horizontal * Speed, Rigidbody2D.velocity.y);
     }
 
     //funcion de salto
