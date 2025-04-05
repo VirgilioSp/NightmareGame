@@ -17,6 +17,10 @@ public class playerMovement : MonoBehaviour
     public bool rayRed;
     public bool rayYellow;
 
+    public float gravityScaleInAir = 3f; 
+    public float gravityScaleNormal = 1f; 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,8 +33,14 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal"); //obtiene datos de la pulsacion del usuario en horizontal
-
+        if (Grounded)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal"); 
+        }
+        else
+        {
+            horizontal = Input.GetAxisRaw("Horizontal") * 0.5f;
+        }
         if (horizontal < 0.0f)
         {
 
@@ -43,7 +53,20 @@ public class playerMovement : MonoBehaviour
 
         }
 
-        animator.SetBool("running", horizontal != 0.0f); //verifica si esta quieto. Si esta quieto al moverse se reproduce la animacion de walk. Si no lo esta, la animacion walk se detiene.
+        animator.SetBool("running", horizontal != 0.0f);
+
+        if (Physics2D.Raycast(transform.position, Vector3.down, 5f) || Physics2D.Raycast(transform.position, new Vector3(-1, -1, 0), 5f))
+        {
+            Grounded = true;
+            animator.SetBool("jumping", Grounded);
+            Rigidbody2D.gravityScale = gravityScaleNormal; 
+        }
+        else
+        {
+            Grounded = false;
+            animator.SetBool("jumping", Grounded);
+            Rigidbody2D.gravityScale = gravityScaleInAir;
+        }
 
         Debug.DrawRay(transform.position, Vector3.down * 5f, Color.blue);
 
@@ -97,6 +120,7 @@ public class playerMovement : MonoBehaviour
     {
 
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
+
 
     }
 }
