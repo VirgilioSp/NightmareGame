@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: a39dc33744a318841b1137a8a8aa83fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BurbujaPlop_0
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 309
+        width: 159
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561147ecb1bc9b74cad3733d681c83b3
+      internalID: -964083008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurbujaPlop_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 292
+        width: 187
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1afadb9042ec3d45905be2ccf4735a4
+      internalID: 1009032611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurbujaPlop_17
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 275
+        width: 253
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857a5222e01ae5e4c96cbd15ee53ab1f
+      internalID: -245571564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurbujaPlop_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 306
+        width: 131
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d404a0465a3447d45b0dbcaaff770339
+      internalID: 496397994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurbujaPlop_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 23
+        width: 226
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac783e1320f1fd14eb85c5955edc01c7
+      internalID: -474028541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BurbujaPlop_29
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 273
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c66620c0d9d11a4599b31b2cd76e7ef
+      internalID: 2057580980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BurbujaPlop_0: -964083008
+      BurbujaPlop_1: -1849486459
+      BurbujaPlop_10: -241239440
+      BurbujaPlop_11: -1110398759
+      BurbujaPlop_12: -374668806
+      BurbujaPlop_13: 687712357
+      BurbujaPlop_14: 1762270597
+      BurbujaPlop_15: -167818155
+      BurbujaPlop_16: 928515365
+      BurbujaPlop_17: -245571564
+      BurbujaPlop_18: 496397994
+      BurbujaPlop_19: 166985131
+      BurbujaPlop_2: 1009032611
+      BurbujaPlop_20: -1091867796
+      BurbujaPlop_21: 67828156
+      BurbujaPlop_22: -300943439
+      BurbujaPlop_23: -1516959403
+      BurbujaPlop_24: -596740487
+      BurbujaPlop_25: -567787268
+      BurbujaPlop_26: -474028541
+      BurbujaPlop_27: -571671111
+      BurbujaPlop_28: -1575401840
+      BurbujaPlop_29: 2057580980
+      BurbujaPlop_3: 1875122156
+      BurbujaPlop_30: 59653421
+      BurbujaPlop_31: 1817448191
+      BurbujaPlop_32: 1546045937
+      BurbujaPlop_33: 1608894984
+      BurbujaPlop_34: -2036489238
+      BurbujaPlop_35: -1097329734
+      BurbujaPlop_36: -1603040513
+      BurbujaPlop_37: -1074473448
+      BurbujaPlop_38: -858012369
+      BurbujaPlop_39: -1001156828
+      BurbujaPlop_4: -1370222333
+      BurbujaPlop_40: 1468184877
+      BurbujaPlop_41: 1844933749
+      BurbujaPlop_5: -448389427
+      BurbujaPlop_6: -1844400560
+      BurbujaPlop_7: 812034089
+      BurbujaPlop_8: -145083049
+      BurbujaPlop_9: -838635265
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,6 +12,7 @@ public class playerMovement : MonoBehaviour
     private Animator animator;
 
     private float horizontal;
+    private bool ViewDerecha = true;
     private bool Grounded; //true si estamos en el suelo y false si no
 
     public bool rayRed;
@@ -19,6 +20,7 @@ public class playerMovement : MonoBehaviour
 
     public float gravityScaleInAir = 3f; 
     public float gravityScaleNormal = 1f; 
+
 
 
     // Start is called before the first frame update
@@ -36,6 +38,7 @@ public class playerMovement : MonoBehaviour
         if (Grounded)
         {
             horizontal = Input.GetAxisRaw("Horizontal"); 
+
         }
         else
         {
@@ -123,4 +126,8 @@ public class playerMovement : MonoBehaviour
 
 
     }
+
+ 
+
+
 }
