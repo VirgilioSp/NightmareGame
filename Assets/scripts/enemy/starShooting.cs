@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class starShooting : MonoBehaviour
@@ -21,6 +22,8 @@ public class starShooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        if (stateInfo.IsName("Damaged")) return;
         Vector3 scale = transform.localScale;
         if (player.transform.position.x < transform.position.x)
         {

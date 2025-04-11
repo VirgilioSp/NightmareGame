@@ -37,6 +37,7 @@ public class starBullet : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
+            other.gameObject.GetComponent<playerHealth>().health -= 1;
         }
     }
 }
