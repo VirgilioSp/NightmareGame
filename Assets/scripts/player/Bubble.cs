@@ -15,6 +15,17 @@ public class Bubble : MonoBehaviour
     private bool varMov = false;
     private bool haColisionado = false;
 
+    private float direccion = 1f;
+
+    public void SetDireccion(float nuevaDireccion)
+    {
+        direccion = nuevaDireccion;
+        
+        Vector3 escalaActual = transform.localScale;
+        escalaActual.x = Mathf.Abs(escalaActual.x) * direccion;
+        transform.localScale = escalaActual;
+    }
+
     private void Start()
     {
         puntoDeOrigen = transform.position;
@@ -28,7 +39,8 @@ public class Bubble : MonoBehaviour
     {
         if (!haColisionado)
         {
-            transform.Translate(Vector2.right * VelocidadBurbuja * Time.deltaTime);
+            transform.Translate(Vector2.right * VelocidadBurbuja * direccion * Time.deltaTime);
+
         }
 
         animator.SetBool("VarMov", VelocidadBurbuja > 0f);
@@ -41,16 +53,28 @@ public class Bubble : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Enemy"))
+        if (collision.gameObject.TryGetComponent<enemyHealth>(out enemyHealth enemyComponent))
         {
+            enemyComponent.TakeDamage(1);
             haColisionado = true;
             animator.SetBool("VarMov", false);
             animator.speed = 5f;
             animator.SetTrigger("VarPlop");
             Destroy(gameObject, 0.3f);
         }
+        
+        else if (collision.CompareTag("Bullet"))
+        {
+            Destroy(collision.gameObject); 
+            Destroy(gameObject);          
+        }
+        else
+        {
+            Destroy(gameObject); 
+        }
     }
+
 }
 
