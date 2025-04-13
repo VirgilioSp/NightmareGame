@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 75778504c95cb6f4b8e02868e458a25c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ojitoRedEspinas_0
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 4104
+        width: 249
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940fcdf2da5d54041a7329fc860e6c52
+      internalID: 794648237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_1
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 4104
+        width: 248
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed26028666035c408bd9b49b1992bbd
+      internalID: 205628996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_2
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 4104
+        width: 250
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5499191d157f9d247ab925e1d1d343b5
+      internalID: -1108702506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_3
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 4104
+        width: 250
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f63320b0f8fc7428d3bbecb0b729a8
+      internalID: -1486646946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_4
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 4104
+        width: 247
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3251d16e64cd734491f07bfa367ca14
+      internalID: -1864745997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3337
+        width: 249
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21f2f19e4eb434499bc3a64641f3bf3
+      internalID: 1863244962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_6
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 3337
+        width: 248
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6487223cfbc09f64b9a0dd749cea7b78
+      internalID: 464629223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_7
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 3337
+        width: 250
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cfb2d87f477de4bac219c568d01576
+      internalID: -1969473161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_8
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 3337
+        width: 250
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2f60999fa0959488852bb260b161df
+      internalID: 631042809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_9
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 3337
+        width: 247
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64470c533ae194e4e853042f2d62ff2f
+      internalID: 1807680201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2567
+        width: 249
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9ae01cf687f5e42ac914f99ab17b77
+      internalID: 164029361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_11
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2567
+        width: 248
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a8c81164cda59439a0e9f96aca0d86
+      internalID: -722855633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_12
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2567
+        width: 250
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a96ef9034c5f6d46ad3322a682473d8
+      internalID: -212272010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_13
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 2567
+        width: 250
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef89e7ac003e9c4a8168bb99b415316
+      internalID: -339083532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_14
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 2563
+        width: 257
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763d8022360754c49bebf881d98c7c95
+      internalID: 1177925200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_15
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1787
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29781d0f4fa5c284da3f86908ed4d9a1
+      internalID: 739687879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_16
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1800
+        width: 248
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785066ae0119b274da03eeaca8601406
+      internalID: 575998960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_17
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1800
+        width: 250
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ded237428a23614089e5a4b79a34554
+      internalID: -2019218275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_18
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 1800
+        width: 250
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bb0033f199b1e479cc819ab6df2285
+      internalID: -1520744289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_19
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1791
+        width: 263
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7b439e3b3ffdc4c826e44fae08672c
+      internalID: -1912232965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 990
+        width: 329
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bf29dccba7d7c41a889bec915a1599
+      internalID: -248376511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_21
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 959
+        width: 391
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e671100399efd47baa98a54540870d
+      internalID: 552233485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_22
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 927
+        width: 456
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193ac906a5edfcd46bc93be55c558c69
+      internalID: -285670324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_23
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 893
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9fed2d148784246bd305c39a233ea3
+      internalID: 1755914039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_24
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 862
+        width: 583
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f4c66da220efa48966c4bc109de99c
+      internalID: 1931088295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 63
+        width: 648
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e2ec3f27630f04e851d1d7135daa34
+      internalID: -583007334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedEspinas_26
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 29
+        width: 711
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc7bb1b617785f4388945b4f890b501
+      internalID: 233755699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ojitoRedEspinas_0: 794648237
+      ojitoRedEspinas_1: 205628996
+      ojitoRedEspinas_10: 164029361
+      ojitoRedEspinas_11: -722855633
+      ojitoRedEspinas_12: -212272010
+      ojitoRedEspinas_13: -339083532
+      ojitoRedEspinas_14: 1177925200
+      ojitoRedEspinas_15: 739687879
+      ojitoRedEspinas_16: 575998960
+      ojitoRedEspinas_17: -2019218275
+      ojitoRedEspinas_18: -1520744289
+      ojitoRedEspinas_19: -1912232965
+      ojitoRedEspinas_2: -1108702506
+      ojitoRedEspinas_20: -248376511
+      ojitoRedEspinas_21: 552233485
+      ojitoRedEspinas_22: -285670324
+      ojitoRedEspinas_23: 1755914039
+      ojitoRedEspinas_24: 1931088295
+      ojitoRedEspinas_25: -583007334
+      ojitoRedEspinas_26: 233755699
+      ojitoRedEspinas_3: -1486646946
+      ojitoRedEspinas_4: -1864745997
+      ojitoRedEspinas_5: 1863244962
+      ojitoRedEspinas_6: 464629223
+      ojitoRedEspinas_7: -1969473161
+      ojitoRedEspinas_8: 631042809
+      ojitoRedEspinas_9: 1807680201
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

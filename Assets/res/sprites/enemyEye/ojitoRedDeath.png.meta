@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 565e04720f36c994ba76091200e92d30
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ojitoRedDeath_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1034
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f73ba008a78ec4f8252d91b08f4bbe
+      internalID: -650837711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1034
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d6bd38a1825564fbacf2d19a16bbf4
+      internalID: -1105019846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_2
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1034
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87435bf74e5dac44822ab2e477ff660
+      internalID: -1648824789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1034
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61de7f2d511c4c4c9ed09414829f13e
+      internalID: -1237927577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_4
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1034
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8be73f9b0dde1542870e9342a4d0059
+      internalID: 134078970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 778
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0219c3698d3af34a9ca1d13d8155519
+      internalID: -29954359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 778
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57c2768b99338a43845cb9c475ae99b
+      internalID: -1521667066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 778
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be7eb5900fd67042871a2d244a6bd79
+      internalID: -690891173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_8
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 778
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc49f175858957b4cb8b5b476582e3f6
+      internalID: -810071407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_9
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 778
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbd6747c8468f541b36f4180c3c376e
+      internalID: 1779683732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 522
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badb602ef358a44419b599928f54ac28
+      internalID: -72726219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 522
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a77aabb10a8604ea646073442e5906
+      internalID: 1033795986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 522
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dccf88a6aa974546858e7b1f9bbb99a
+      internalID: 63818567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_13
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 522
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c31f6935d07e0a48a864ad04a41e908
+      internalID: 1890197017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_14
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 522
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbf7dcb63bd23648bd6ed350c5560d7
+      internalID: -458921903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 266
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9401a7a0b986ead4ea8e3f1f3ed32b33
+      internalID: 1030701563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 266
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6fd8f868c4bcc49a608a3f9e5c6f5b
+      internalID: 263727107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_17
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 266
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37515fc5b28ccb04b9f59600b8436016
+      internalID: -206362144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_18
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 266
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f07ba3b7328f48a24b712d24dba3c
+      internalID: 400466599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_19
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 266
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acdd4a976549c047bcac30cee9d52fe
+      internalID: -1007152168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 10
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fdfbf41a1ffaa498f6bd0e844f5659
+      internalID: -1480980342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojitoRedDeath_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 10
+        width: 245
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15f61fe5ad61834692f5a9a3e48dea8
+      internalID: -992297877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ojitoRedDeath_0: -650837711
+      ojitoRedDeath_1: -1105019846
+      ojitoRedDeath_10: -72726219
+      ojitoRedDeath_11: 1033795986
+      ojitoRedDeath_12: 63818567
+      ojitoRedDeath_13: 1890197017
+      ojitoRedDeath_14: -458921903
+      ojitoRedDeath_15: 1030701563
+      ojitoRedDeath_16: 263727107
+      ojitoRedDeath_17: -206362144
+      ojitoRedDeath_18: 400466599
+      ojitoRedDeath_19: -1007152168
+      ojitoRedDeath_2: -1648824789
+      ojitoRedDeath_20: -1480980342
+      ojitoRedDeath_21: -992297877
+      ojitoRedDeath_3: -1237927577
+      ojitoRedDeath_4: 134078970
+      ojitoRedDeath_5: -29954359
+      ojitoRedDeath_6: -1521667066
+      ojitoRedDeath_7: -690891173
+      ojitoRedDeath_8: -810071407
+      ojitoRedDeath_9: 1779683732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
