@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: fa250cb7cf074484283e936db036b0c8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 817
+        width: 203
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae720fbaa161164c9a249b496cf9e63
+      internalID: 2068959440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 874
+        width: 122
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19587655c9918764b824e20887db8829
+      internalID: -1441894410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_3
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 817
+        width: 208
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49736833b0a0e743852b92cb4c2a921
+      internalID: -1491117359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 561
+        width: 208
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b3932187f7c1a48a21c7319136bc3d
+      internalID: 778418653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 561
+        width: 207
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276c7f09a8e706e459707ab706082334
+      internalID: -854155727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_6
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 561
+        width: 206
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e997416ee14b54ea93891d795c4f64
+      internalID: -31793706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 301
+        width: 214
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732047dc3e8b0f04aa3df4bf9cf68246
+      internalID: 776580979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 303
+        width: 213
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c85ab68b0f28654d8c1d29a88b0ba1d
+      internalID: -2057992246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 303
+        width: 211
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d59964496a8f744b899daba1cbad66b
+      internalID: 1669043483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PastillaTiempoLimite_38
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 82
+        width: 209
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68806ac22d8dbc049a7dccc77c1e6a89
+      internalID: -1604643002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PastillaTiempoLimite_0: 2068959440
+      PastillaTiempoLimite_1: 1291524043
+      PastillaTiempoLimite_10: 1669043483
+      PastillaTiempoLimite_11: -1918502863
+      PastillaTiempoLimite_12: -2133093483
+      PastillaTiempoLimite_13: 1549735211
+      PastillaTiempoLimite_14: -845625387
+      PastillaTiempoLimite_15: 1755205095
+      PastillaTiempoLimite_16: 212522454
+      PastillaTiempoLimite_17: -1607281360
+      PastillaTiempoLimite_18: 1256856379
+      PastillaTiempoLimite_19: 1314754762
+      PastillaTiempoLimite_2: -1441894410
+      PastillaTiempoLimite_20: 1106055967
+      PastillaTiempoLimite_21: 875458051
+      PastillaTiempoLimite_22: -1490443906
+      PastillaTiempoLimite_23: -1206189558
+      PastillaTiempoLimite_24: 1924619840
+      PastillaTiempoLimite_25: 227385321
+      PastillaTiempoLimite_26: -196624399
+      PastillaTiempoLimite_27: 319273777
+      PastillaTiempoLimite_28: 961243933
+      PastillaTiempoLimite_29: -238486596
+      PastillaTiempoLimite_3: -1491117359
+      PastillaTiempoLimite_30: 1368388041
+      PastillaTiempoLimite_31: -597906783
+      PastillaTiempoLimite_32: 604721063
+      PastillaTiempoLimite_33: -1959236527
+      PastillaTiempoLimite_34: 30649269
+      PastillaTiempoLimite_35: 1513425227
+      PastillaTiempoLimite_36: -1733380307
+      PastillaTiempoLimite_37: 499784997
+      PastillaTiempoLimite_38: -1604643002
+      PastillaTiempoLimite_39: 383490936
+      PastillaTiempoLimite_4: 778418653
+      PastillaTiempoLimite_40: 116214131
+      PastillaTiempoLimite_41: 1907868121
+      PastillaTiempoLimite_5: -854155727
+      PastillaTiempoLimite_6: -31793706
+      PastillaTiempoLimite_7: 776580979
+      PastillaTiempoLimite_8: -2057992246
+      PastillaTiempoLimite_9: -83677340
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

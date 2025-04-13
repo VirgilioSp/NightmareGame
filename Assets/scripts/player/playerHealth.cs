@@ -33,4 +33,14 @@ public class playerHealth : MonoBehaviour
             pills[fullPills].sprite = HalfPill;
         }
     }
+
+    public void Heal(int amount)
+    {
+        health += amount;
+        if (health > pills.Length * 2)
+        {
+            health = pills.Length * 2;
+        }
+    }
+
 }
