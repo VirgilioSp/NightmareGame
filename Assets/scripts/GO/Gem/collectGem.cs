@@ -5,13 +5,10 @@ public class collectGem : MonoBehaviour
 {
     private Animator animator;
     private bool isCollected = false;
-    private bool isOpen = false;
-    public openChest scriptChest;
 
-    private float collectDuration = 0.5f;
-    private float warningDelay = 0.5f;
-    private float explodeDelay = 3f;
     private float timer = 0f;
+    private float warningTime = 5f;
+    private float explodeTime = 8f;
 
     void Start()
     {
@@ -20,29 +17,21 @@ public class collectGem : MonoBehaviour
 
     void Update()
     {
-        if (!isOpen) return;
+        if (isCollected) return;
 
         timer += Time.deltaTime;
 
-        if (!isCollected && timer >= warningDelay && timer < warningDelay + Time.deltaTime)
+        if (Mathf.Approximately(timer, warningTime) || (timer >= warningTime && timer < warningTime + Time.deltaTime))
         {
-            Debug.Log("Warning");
+            Debug.Log("Warning Triggered");
             animator.SetTrigger("Warning");
         }
 
-        if (!isCollected && timer >= warningDelay + explodeDelay)
+        if (timer >= explodeTime)
         {
-            Debug.Log("Explode");
+            Debug.Log("Explode Triggered");
             animator.SetTrigger("Explode");
             Invoke("deactivateObject", 0.5f);
-            isOpen = false; // stop updating after this
-        }
-
-        if (isCollected && timer >= collectDuration)
-        {
-            Debug.Log("Deactivate after Collect");
-            deactivateObject();
-            isOpen = false;
         }
     }
 
@@ -51,12 +40,11 @@ public class collectGem : MonoBehaviour
         if (isCollected || !other.CompareTag("Player")) return;
 
         isCollected = true;
-        isOpen = true;
-        timer = 0f;
-
         animator.SetTrigger("Collect");
-        Debug.Log("Collect");
-        scriptChest.closeChest();
+        Debug.Log("Collected!");
+
+        CancelInvoke(); // just in case!
+        Invoke("deactivateObject", 0.5f);
     }
 
     void deactivateObject()
