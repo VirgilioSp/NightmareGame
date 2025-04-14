@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: 5295b4e6230688744b1cf7fd497808a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toothdeath_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 854
+        width: 663
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228134584e7e30e479b9b300ab40f2fe
+      internalID: 116226087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toothdeath_1
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 854
+        width: 662
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0b59a8bc04d134d8025c48143db0f6
+      internalID: -1270617222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toothdeath_2
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 853
+        width: 692
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fbf4ec7a20f5343b50db1c1ff6b56d
+      internalID: -1504210361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toothdeath_3
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 838
+        width: 705
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9152547f7c4cdb24f8e5ef30810f1f67
+      internalID: 718666505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toothdeath_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 60
+        width: 645
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743563d158b863740a7456e8116e0fae
+      internalID: 1492712319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toothdeath_5
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 83
+        width: 645
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3d05e9dac06394fbb74c4695a22cbd
+      internalID: 1139444073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      toothdeath_0: 116226087
+      toothdeath_1: -1270617222
+      toothdeath_10: 964245766
+      toothdeath_11: -93354291
+      toothdeath_12: 127288745
+      toothdeath_13: 368341197
+      toothdeath_14: -623769245
+      toothdeath_15: -1679183478
+      toothdeath_16: -269850085
+      toothdeath_17: -1084771943
+      toothdeath_18: -191220239
+      toothdeath_19: -163948599
+      toothdeath_2: -1504210361
+      toothdeath_20: 1519407404
+      toothdeath_21: 910885269
+      toothdeath_22: -2840545
+      toothdeath_23: -80859495
+      toothdeath_24: 1347763548
+      toothdeath_25: -1858786050
+      toothdeath_26: -735889483
+      toothdeath_27: -488057307
+      toothdeath_28: -2117097792
+      toothdeath_29: -671994394
+      toothdeath_3: 718666505
+      toothdeath_30: -1264169448
+      toothdeath_31: -922948000
+      toothdeath_32: 2033151287
+      toothdeath_33: 263003909
+      toothdeath_34: 130747394
+      toothdeath_35: 854859047
+      toothdeath_36: 1697966965
+      toothdeath_37: 695928805
+      toothdeath_38: 863902737
+      toothdeath_39: 1417985900
+      toothdeath_4: 1492712319
+      toothdeath_40: 1053179969
+      toothdeath_41: -1179949621
+      toothdeath_42: -251740477
+      toothdeath_43: 814039708
+      toothdeath_44: -1238808778
+      toothdeath_45: 1566136805
+      toothdeath_46: -1778258122
+      toothdeath_47: -198260808
+      toothdeath_5: 1139444073
+      toothdeath_6: -68823357
+      toothdeath_7: -1938110160
+      toothdeath_8: -916131816
+      toothdeath_9: 705350236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
