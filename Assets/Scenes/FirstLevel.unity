@@ -6334,8 +6334,8 @@ GameObject:
   - component: {fileID: 1766557112}
   - component: {fileID: 1766557115}
   - component: {fileID: 1766557114}
-  - component: {fileID: 1766557116}
   - component: {fileID: 1766557117}
+  - component: {fileID: 1766557118}
   m_Layer: 0
   m_Name: brillito_0
   m_TagString: Untagged
@@ -6431,18 +6431,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1766557116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766557111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71bd83819f835b443bee5518b6d73472, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1766557117
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6478,6 +6466,18 @@ CircleCollider2D:
   m_Offset: {x: -0.00000047683716, y: 0}
   serializedVersion: 2
   m_Radius: 0.4
+--- !u!114 &1766557118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766557111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855da883b06945c4ca3ca006b1246fde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2004947739
 GameObject:
   m_ObjectHideFlags: 0
