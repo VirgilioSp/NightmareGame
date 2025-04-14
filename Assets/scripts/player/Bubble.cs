@@ -75,6 +75,11 @@ public class Bubble : MonoBehaviour
             Destroy(gameObject); 
         }
     }
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
+
 
 }
 
